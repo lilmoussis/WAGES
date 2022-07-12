@@ -10,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>WAGES - Women and Associations for Gain both Economic and Social</title>
 
-    <!-- Favicon -->
+     <link href="/your-path-to-uicons/css/uicons-rounded-regular.css" rel="stylesheet">
+  <link href="/your-path-to-uicons/css/uicons-rounded-bold.css" rel="stylesheet">
+  <link href="/your-path-to-uicons/css/uicons-rounded-solid.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
     <!-- Google Font -->
@@ -28,7 +30,7 @@
 
     <!-- Template Style -->
     <link rel="stylesheet" href="css/style.css" />
-
+  
   </head>
   <body>
 
@@ -722,7 +724,32 @@
                   <h6 class="text-white">Nous découvrir</h6>
                   <ul class="list-unstyled">
                     <li><a href="about-us.html"><span>A propos de nous</span></a></li>
-                    <li><a href="#"><span>Nous contacter</span></a></li>
+                    <li data-bs-toggle="modal" data-bs-target="#myModal"><span>Nous contacter</span></li>
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">Contacter WAGES</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                          </div>
+
+                          <!-- Modal body -->
+                          <div class="modal-body" style="background-color: #00001e;">
+                            <li><a href="https://www.facebook.com/wagestogo"><i class="fab fa-facebook-f"></i>  Facebook</a></li>
+                            <li><a href="https://www.instagram.com/wagestogo/"><i class="fab fa-instagram"></i>  Instagram</a></li>
+                          </div>
+
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
                   </ul>
                 </div>
                 <div class="col-sm-8 mt-4 mt-md-5">
